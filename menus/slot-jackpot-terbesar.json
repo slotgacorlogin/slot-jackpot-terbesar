@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle slot-jackpot-terbesar",
+        "command": "slot-jackpot-terbesar:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "slot-jackpot-terbesar",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "slot-jackpot-terbesar:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
